@@ -43,7 +43,7 @@ To run
 ---
 ```
 - git clone git@github.com:jameshughes7/devTrendStats.git
-- cd deTrendStats
+- cd devTrendStats
 - nodemon app.js
 - http://localhost:3000
 ```
