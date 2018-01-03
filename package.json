@@ -1,0 +1,17 @@
+{
+  "name": "githubapiapp",
+  "version": "1.0.0",
+  "description": "node js app to gather dev trend data from github",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Hughes",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "file-system": "^2.2.2",
+    "request-promise": "^4.2.2"
+  }
+}
