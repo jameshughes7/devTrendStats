@@ -43,8 +43,9 @@ To run
 ---
 ```
 - git clone git@github.com:jameshughes7/devTrendStats.git
-- cd bowling-challenge
-- open index.html
+- cd deTrendStats
+- nodemon app.js
+- http://localhost:3000
 ```
 
 
