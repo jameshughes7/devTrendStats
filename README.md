@@ -47,9 +47,10 @@ To run
 - open index.html
 ```
 
-```
+
 Technology
 ---
+```
 - JavaScript
 - Node
 ```
