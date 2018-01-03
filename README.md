@@ -1,13 +1,12 @@
-<div style="text-align:center"><b><span style=" font-family:Georgia; font-size:1.5em;">Dev Trends Statistics App
-</div><br>
+# Dev Trends Statistics App
 
 
 Project outline
 ---
+A simple front end web app displaying software developer trends and how the differ in the winter months(**Oct-Dec**) compared to the rest of the year(**Jan-Sep**). The data was obtained from the Github API <a href="https://developer.github.com/v3/​​">GitHub API</a>
 This project was both extremely challenging and equally enjoyable.
 I learned a lot about how to deal with Web API's and how to gather,
-extract and collate data. I also learned about many helpful **NodeJs**
-libraries which will come in useful in the future.
+extract and collate data. I also learned about many helpful **NodeJs** libraries which will come in useful in the future.
 
 
 Goals
