@@ -4,7 +4,7 @@
 Project outline
 ---
 A simple front end web app displaying software developer trends and how the differ in the winter months(**Oct-Dec**) compared to the rest of the year(**Jan-Sep**). The data was obtained from the Github API <a href="https://developer.github.com/v3/​​">GitHub API</a>
-This project was both extremely challenging and equally enjoyable.
+This project was both challenging and equally enjoyable.
 I learned a lot about how to deal with Web API's and how to gather,
 extract and collate data. I also learned about many helpful **NodeJs** libraries which will come in useful in the future.
 
@@ -16,8 +16,8 @@ This project had two main goals:
 2. Show how these trends differed to other developers over the same periods of time.
 
 When I started this project, I had 2 many thoughts regarding the direction I should take to tackle it.
-1. Create a web crawler/scraper to gather the data
-2. Obtain the data needed by accessing the GitHub API
+- Create a web crawler/scraper to gather the data
+- Obtain the data needed by accessing the GitHub API
 
 
 My Approach
@@ -58,9 +58,9 @@ Technology
 
 Trouble shooting
 ---
-Knowing how to obtain the Access token was one of the big challenges I faced. Reading through the GitHubAPI docs felt very daunting at times as there was so much information. This was the first time I had needed to provide credentials in exchange for a security token. But having done it now, I look forward to more OAuth challenges in the future.
+Knowing how to obtain the Access token was one of the big challenges I faced. Reading through the GitHubAPI docs felt daunting at times as there was so much information. This was the first time I had needed to provide credentials in exchange for a security token. But having done it now, I look forward to more OAuth challenges in the future.
 
-The time aspect is the other big challenge for this project. It's good to gather data at a set point in time, but it to really complete this project, I will need to extract data from the GitHub API over a period of time(e.g. comparing data from the first 9 months of the year and comparing that with data from the last 3 months of the year). This is currently a work in progress which I am looking forward to cracking.
+The time aspect is the other big challenge for this project. It's good to gather data at a set point in time, but it to really complete this project, I will need to extract data from the GitHub API over a period of time(e.g. comparing data from the first 9 months of the year and comparing that with data from the last 3 months of the year). This is currently a work in progress which I look forward to cracking.
 
 
 Things to Improve
