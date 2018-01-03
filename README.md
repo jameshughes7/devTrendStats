@@ -4,16 +4,14 @@
 
 Project outline
 ---
-```
 This project was both extremely challenging and equally enjoyable.
 I learned a lot about how to deal with Web API's and how to gather,
 extract and collate data. I also learned about many helpful **NodeJs**
 libraries which will come in useful in the future.
-```
+
 
 Goals
 ---
-```
 This project had two main goals:
 1. Show the trends that developers displayed over the winter months and compare these trends with the rest of the year.
 2. Show how these trends differed to other developers over the same periods of time.
@@ -21,11 +19,10 @@ This project had two main goals:
 When I started this project, I had 2 many thoughts regarding the direction I should take to tackle it.
 1. Create a web crawler/scraper to gather the data
 2. Obtain the data needed by accessing the GitHub API
-```
+
 
 My Approach
 ---
-```
 Having done some research on both options, I realised that the 2nd option was the better choice. Creating a crawler would have been overkill.
 
 2 Main main features of this app would allow us to compare the differing developer trends
@@ -40,7 +37,7 @@ For the above mentioned features, the following parameters could be analysed to 
 - Number of commits
 - Number of Stars
 - Number of Contributors
-```
+
 
 To run
 ---
@@ -50,23 +47,21 @@ To run
 - open index.html
 ```
 
+```
 Technology
 ---
-```
 - JavaScript
 - Node
 ```
 
+
 Trouble shooting
 ---
-```
 Knowing how to obtain the Access token was one of the big challenges I faced. Reading through the GitHubAPI docs felt very daunting at times as there was so much information. This was the first time I had needed to provide credentials in exchange for a security token. But having done it now, I look forward to more OAuth challenges in the future.
 
 The time aspect is the other big challenge for this project. It's good to gather data at a set point in time, but it to really complete this project, I will need to extract data from the GitHub API over a period of time(e.g. comparing data from the first 9 months of the year and comparing that with data from the last 3 months of the year). This is currently a work in progress which I am looking forward to cracking.
-```
+
 
 Things to Improve
 ---
-```
 __Testing__ __:(__ As much of this project has been an adventure of exploration and discovery, testing was not the priority. As a matter of priority, I will be testing the app using the npm libraries: **supertest**, **mocha** and **should**.
-```
