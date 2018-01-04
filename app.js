@@ -13,8 +13,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 //Viewing template
 app.set('view engine', 'ejs');
 
-var url = 'https://api.github.com/users/jameshughes7';
-var myMates = [];
+var url = 'https://api.github.com/users/:user';
+var myMates = ['jonathanstidwillvf', 'benjaminsunderland', 'neroshan12', 'jameshughes7','racoll'];
 
 
 var options = {
@@ -41,8 +41,14 @@ request(options, callback);
 //Routes
 
 app.get('/', function(req, res) {
-  res.render('home', {myMates: myMates});
-  console.log(myMates);
+  var query = req.query.search;
+  var url = 'https://api.github.com/users/?s=' + query;
+  request(url, function(error, response, body) {
+    if(!error && reponse.statusVode == 200) {
+      var data = JSON.parse(body);
+      res.render("results", {data: data});
+    }
+  });
 });
 
 //Server listener

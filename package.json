@@ -4,7 +4,7 @@
   "description": "node js app to gather dev trend data from github",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "James Hughes",
   "license": "ISC",
@@ -13,5 +13,9 @@
     "express": "^4.16.2",
     "file-system": "^2.2.2",
     "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
   }
 }
