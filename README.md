@@ -65,6 +65,6 @@ The time aspect is the other big challenge for this project. It's good to gather
 
 Things to Improve
 ---
-**In this project I have not reached the stage of collating the data and rendering it on the results page. This is a work in progress, which I intend on updating as soon as possible. **
+**I have not reached the stage of collating the data and rendering it on the results page. This is a work in progress, which I intend on updating as soon as possible.**
 
 __Testing__ __:(__ As much of this project has been an adventure of exploration and discovery, testing was not the priority. As a matter of priority, I will be testing the app using the npm libraries: **supertest**, **mocha** and **should**.
